@@ -5,7 +5,12 @@ function Tickler() {
     console.log("Teehee!");
   }
 
-  return <button>Tickle me!</button>;
+  return (
+    <div>
+      <button onClick={tickle}>Tickle me!</button>
+    </div>
+  );
 }
 
 export default Tickler;
+
